@@ -1,0 +1,5 @@
+string = input("Введіть рядок:")
+word_to_replace = input("Введіть слово, яке потрібно замінити:")
+replacement_word = input("Введіть слово, на яке потрібно замінити:")
+new_string = string.replace(word_to_replace, replacement_word)
+print("Новий рядок: ", new_string)
