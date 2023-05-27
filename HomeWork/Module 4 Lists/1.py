@@ -1,0 +1,13 @@
+s=input ('Введіть число виразу:' )
+if s.find('+') = -1:
+    n=s.find('+')
+    print (s,'=',float (s[:n])+float (s[n+1:len(s)]))
+if s.find ('-') =-1:
+    n=s.find ('-')    
+    print (s,'=',float (s[:n])-float (s[n+1:len(s)]))
+if s.find ('*') =-1: 
+    n=s.find ('*') 
+    print (s,'=',float (s[:n])*float (s[n+1:len(s)]))
+if s.find ('/') =-1:
+    n=s.find ('/')
+    print (s,'=',float (s[:n])/float (s[n+1:len(s)]))
